@@ -1,0 +1,31 @@
+{
+  "name": "css-longhand",
+  "version": "0.0.0",
+  "description": "Expand CSS shorthands.",
+  "license": "MIT",
+  "repository": "hemanth/css-longhand",
+  "author": {
+    "name": "hemanth.hm",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "css",
+    "shorthands",
+    "longhands",
+    "expand"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
