@@ -49,9 +49,9 @@ parser._transform = function(data, encoding, done) {
   done();
 };*/
 
-module.exports = function (path) {
-	if(!fs.existsSync(path)) {
-		throw new Error("File not foound");
+module.exports = function (css) {
+	if(typeof css !== 'string') {
+		throw new Error("First param must be a string!");
 	}
-	return longhand(fs.readFileSync(path,'utf-8'));
+	return longhand(css);
 };
